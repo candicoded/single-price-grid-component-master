@@ -105,3 +105,42 @@ footer {
   font-size: 0.8rem;
   width: 100%;
 }
+
+@media screen and (min-width: 768px) {
+  
+  main {
+    width: 50%;
+    margin: auto;
+  }
+
+  .community .heading {
+    font-size: 1.5rem;
+  }
+
+  .thirty-day {
+    font-size: 1.1rem;
+  }
+
+  .community p:nth-child(3) {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .desktop-row {
+    display: flex;
+  }
+
+  .sub-container {
+    border-radius: 0 0 0 5px;
+    flex: 1;
+  }
+
+  button {
+    font-size: 1rem;
+  }
+
+  .why-container {
+    border-radius: 0 0 5px 0;
+    flex: 1;
+  }
+}
